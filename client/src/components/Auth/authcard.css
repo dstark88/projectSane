@@ -1,0 +1,19 @@
+.authScreen {
+    top: 30%;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    size: 40px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+.card {
+    color: white;
+    background: none;
+    margin: 0;
+    border: none;
+}

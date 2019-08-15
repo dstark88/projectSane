@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+ }
+ *:before,
+ *:after {
+  box-sizing: border-box;
+ }
+
+ html,
+body {
+ height: 100%;
+ position: relative;
+}
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 20px; /* height of your footer */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./adobemountains.jpg");
+  /* background: grey; */
+  /* background-image: url ("/adobemountains.jpeg")!important; */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  /* opacity: 0.4; */
+}
+ 
+h1, h2 {
+  color: white;
+  margin-bottom: 5%;
+  font-weight: lighter;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h3{
+  color: white;
+  font-weight: lighter;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#mainHeader {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 80px;
+}
+
+#mainInfo {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+
+#mainText {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+#storyText {
+  color: black;
+}
+.siteInfo {
+  text-align: center;
+}
+.story {
+  padding: 20px;
+  white-space: pre-line;
+  margin: 5px;
+  background: rgba(89, 83, 94, 0.65);
+}
+#storyList {
+  background: rgba(89, 83, 94, 0.65);
+  color: white;
+  margin: 5px;
+  padding: 20px;
+}

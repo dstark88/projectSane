@@ -1,0 +1,13 @@
+button, .btn-fluid, .btn-secondary {
+    margin: 10px;
+    border: 2px solid teal;
+    background-color: teal;
+    color: white;
+    padding: 5px 14px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-shadow: 3px 3px 10px black;  
+}
+
+
